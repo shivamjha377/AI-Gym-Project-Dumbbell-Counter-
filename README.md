@@ -52,6 +52,8 @@ MediaPipe is a cross-platform framework for building multimodal applied machine 
  
 1(a) Video feed capture
 After this we will write a feed which will capture a real-time video feed from our web-camera. Once we get our feed then we apply our pose estimation, angle calculating on it.
+
+
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/9bdccce4-7816-40f2-adc4-1d915ac596ec)
 
 
@@ -67,6 +69,7 @@ In this we have used:
 A) min_detection_confidence: It is used for reading the detections in the webcam.
 B) min_tracing_confidence: It is used for mainting the state of the webcam.
 Now we recolor our image by converting the image form bgr to rgb by using the  cv2.cvtColor().
+
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/82872974-b399-48ef-86da-f6d0b2cf6e1b)
  
 
@@ -77,6 +80,7 @@ Also we are changing the color of different dots in this pose model by using mp_
  
 3.Deteminig joints: This section is used for detecting the different joints in our body and are used to find Where our elbow is?, where our wrist is? , where our finger is? Etc within our body.
 In this we have used the try and except blocks which is used to declare the finding of the landmarks.
+
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/3742d70e-f158-47fe-a50f-de10bc16d57c)
  
 We have used try and except blocks because there may be the cases when we cannot able to detect the landmarks so in that case we simply pass using the 'pass' statement.
@@ -93,6 +97,7 @@ In this sections we extracts the different pose landmarks.
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/aa4ed0f9-6866-488e-8699-01e77d47beec)
 
 We use to calculate the angle for our left hand by detecting the point on left shoulder, left elbow and left wrist.
+
 
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/158a3f42-ae27-4e6a-8947-f6a5fc97cb32)
 We will use certain trignometry functions for finding the angles.
