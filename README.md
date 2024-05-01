@@ -100,6 +100,9 @@ We use to calculate the angle for our left hand by detecting the point on left s
 
 
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/158a3f42-ae27-4e6a-8947-f6a5fc97cb32)
+
+
+
 We will use certain trignometry functions for finding the angles.
 In this we will use our numpy model which is used in mathematical functions. Here we will use trignometric functions operations in order to find the left hand angle.
 We have declared a function calculate_angles(a,b,c) where a,b,c are the first, mid and last point and at first we convert the angle into the radian then we covert it into the angle and the maximum limit of  the
@@ -114,11 +117,14 @@ Syntax : numpy.angle(z, deg=0)
 
 5.curl counter
 In this module we have written the code which will able to use above calculate sections code for counting the curls of our dumbell. 
+
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/63f184bd-2817-466f-8f10-165a63b9e9cb)
 
 It will count the dumbell up and down movement and based on the action of up and down it will increase the count operation.
 
 ![image](https://github.com/shivamjha377/AI-Gym-Project-Dumbbell-Counter-/assets/57248088/60645ccb-0eb7-4ba2-bc5c-ff471ba665a2)
+
+
 In this method we visulaize our angle_calculator() so we can see in our real time camera feed
  
        
